@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content {
+  margin-top: 10px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: whitesmoke;
+}
+
+.search_bar {
+  width: 100%;
+  text-align: center;
+}
+.search_bar input {
+  width: 75%;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 10px;
+
+}
